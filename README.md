@@ -2,12 +2,12 @@
  * @Author: gaorui
  * @email: 15735170462@163.com
  * @Date: 2020-12-09 18:00:38
- * @LastEditTime: 2020-12-09 18:49:09
+ * @LastEditTime: 2020-12-09 18:55:18
  * @Description: 
 -->
 # QL-IQA
 Learning Distance Distribution from Quality Levels for Blind Image Quality Assessment
-### 一、准备工作：
+### 一、准备工作
 从网上下载VGG16参数模型，因用到Siamese network，两个网络分支都必须是预训练好的，需转移下载好的VGG16模型参数到另一个网络分支（model/caffemodel.py)
 
 ### 二、预处理所有失真图像
