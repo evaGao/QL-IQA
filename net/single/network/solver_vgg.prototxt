@@ -1,0 +1,19 @@
+# The train/test net protocol buffer definition
+net: "/media/s408/zz/gr/NR-IQA-CNN-master1/TID2013/single/singledouble.prototxt"
+
+test_iter: 20
+
+test_interval: 1000
+base_lr: 0.000001
+lr_policy: "step"
+gamma: 0.5
+stepsize: 5000
+display: 50
+max_iter: 50000
+momentum: 0.9
+solver_type: SGD
+weight_decay: 0.0005
+average_loss: 500
+snapshot: 1000
+snapshot_prefix: "/media/s408/zz/gr/NR-IQA-CNN-master1/TID2013/single/model/"
+solver_mode: GPU
